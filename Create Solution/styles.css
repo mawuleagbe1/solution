@@ -345,20 +345,27 @@ h2 {
      height: 80px;
      border-radius:100%;
 }
-.cta{
+.dta{
     display: flex;
-    background-color: rgb(226, 76, 38);
-    color: white;
-    padding-right: 20px;
-    font-size: 20px;
-    margin-left: 35px;
-    margin-right: 35px;
-    border-radius: 10px;
-    font-weight: bold;
+    justify-content: center;
 }
+
 .cta p{
     margin-left: 5px;
     color: white ;
+}
+.cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 76, 38);
+    color: white;
+    width: 800px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: -15px;
 }
 
 .contact-btn {
