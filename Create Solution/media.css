@@ -1,0 +1,168 @@
+/* Responsive for Tablets (≤ 768px) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .call {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-section {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .right-section img {
+        max-width: 80%;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content {
+        margin: 0;
+    }
+
+    .image img {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .panic, .our, .p, .bbt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .cmg {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    .inner-ratcont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact-btn {
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    .opony {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .column {
+        min-width: 100%;
+    }
+}
+
+/* Responsive for Mobile (≤ 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .get-started, .explore-more {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call button {
+        width: 100%;
+    }
+
+    .rating-content {
+        width: 90%;
+    }
+
+    .cta {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    /* .column {
+        min-width: 100%;
+        text-align: center;
+    } */
+}
