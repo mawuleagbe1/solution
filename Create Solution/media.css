@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 1024px) { /* Tablets */
     .cta {
-        width: 90%;
+        width: 70%;
         height: 70px;
         font-size: 18px;
         flex-wrap: wrap;
@@ -186,7 +186,7 @@
 
 @media screen and (max-width: 768px) { /* Mobile devices */
     .cta {
-        width: 95%;
+        width: 85%;
         height: auto;
         font-size: 16px;
         flex-direction: column;
