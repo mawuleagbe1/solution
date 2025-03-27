@@ -13,7 +13,7 @@
     nav ul {
         flex-direction: row;
         align-items: center;
-        padding: 5px 0;
+        padding: 0;
     }
 
     nav ul li {
